@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="x-ua-compatible" content="ie=edge" />
@@ -22,33 +22,46 @@
 
 <header>
 
-   
+ <div class="welcome-image">
 <nav class="navbar">
-    <ul class="nav-list">
-	      <li class="nav-link nav-logo"><a href="#">Hanna Kozak</a></li>
-    </ul>
-	
-	<div class="nav-link nav-link-toggle"><i class="fa fa-bars"  style='color: white; padding: 1em;'></i></div>
-	
-	<ul class="nav-list nav-list-right nav-toggle-show">
-          <li class="nav-link"><a href="#">Home</a></li>
-          <li class="nav-link"><a href="#">Projects</a></li>
-          <li class="nav-link"><a href="#">Contact</a></li>
+    <ul>
+	      <li class="nav-link nav-link-left"><a href="#">Hanna Kozak</a></li>
+      
+      <div class="myLinks" >
+        <li class="nav-link"><a href="#">Home</a></li>
+        <li class="nav-link"><a href="#">Projects</a></li>
+        <li class="nav-link"><a href="#">Contact</a></li>
+      </div>
+      <div  id="top">
+        <div class="mobile">
+        <li class="mob"><a href="#"> <i class="fa fa-home" style="color: white;"></i></a></li>
+        <li class="mob"><a href="#"><i class="fa fa-image" style="color: white;"></i></a></li>
+        <li class="mob"><a href="#"> <i class="fa fa-envelope" style="color: white;"></i></a></li>
+      </div>
+  </div>
+      
+       <li class="hamburger" id="hamburger" ><div onclick="myB(this)">
+           <div class="bar1"></div>
+           <div class="bar2"></div>
+           <div class="bar3"></div>
+           </div>
+        </li>
     </ul>
 </nav>
+</div>
 
 
 </header>
-  </main>
+ 
   
     <section id="welcome">
-      <div class="welcome-image">
+     
         <div class="welcome-text">
           <h1>Front End Developer. </h1>
           <p>Based in Edinburgh. Creating websites using HTML5 CSS3 and JavaScript. </br> If you are a business seeking a web presence or an employer looking to hire, please contact me here.
             <p>
         </div>
-      </div>
+      
     </section>
 
     <section>
@@ -114,16 +127,7 @@
     <footer class="footer">Hanna Kozak 2019</footer>
 	
     
-    <script type="text/javascript">
-      function classToggle() {
-  const navs = document.querySelectorAll('.nav-list')
-  
-  navs.forEach(nav => nav.classList.toggle('nav-toggle-show'));
-}
-
-document.querySelector('.nav-link-toggle')
-  .addEventListener('click', classToggle);
-    </script>
+  <script src="js/scripts.js"></script>
 
 </body>
 

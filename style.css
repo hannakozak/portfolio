@@ -11,67 +11,138 @@ box-sizing: inherit;
 body {
 font-family: Helvetica, Arial, sans-serif;
 margin: 0;
+padding:0;
+}
+
+header {
+	margin:0;
+	padding:0;
 }
 
 .navbar {
-  background-color: black;
+	height: 12%;
+	padding: 0;
   display: flex;
   flex-flow: column wrap;
   position: fixed;
   width: 100%;
+   z-index: 1;
+   margin-top: -1.5em;
 }
 
-.nav-list {
-	display: flex;
-	flex-flow: column wrap;
-	list-style: none;
+ul {
+  display: flex;
+  list-style: none;
+  font-size: 20px;
+  justify-content: flex-end; 
+  margin: 0px;
+}
+li {
+  margin: 20px;
+  font-family: Arial;
 }
 
-.nav-link > a{
-color: white;
-padding: 1em;
-text-decoration: none;
+
+
+  .hamburger {
+    display: inline-block;
+    cursor: pointer;
+  }
+    
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
 }
 
-.nav-list-right {
-margin-left: 0;
-display: none;
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-7px, 5px) ;
 }
 
-.nav-link-toggle {
-  align-self: flex-end;
-  display: initial;
-  position: absolute;
-  cursor: pointer;
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
 }
 
-.nav-toggle-show {
-	display: flex;
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-10px, -8px) ;
 }
+  
+ 
+  .nav-link {
+    display: none;
+  }
+  
+  
+   .change .mobile {
+    display: flex;
+	margin-left: 0em;
+	
+  }
+  
+  
+  
+  .mobile {
+	  display: none;
+  }
+ 
 
 @media (min-width: 35em) {
-.navbar {
- flex-flow: row wrap
+ 
+nav {
+   background-color: black;
+   margin: 0;
+   padding: 0;
 }
 
-.nav-list {
- display: flex;
- flex-flow: row wrap;
+ul {
+  display: flex;
+  list-style: none;
+  font-size: 20px;
+  justify-content: flex-end; 
+  margin: 0px;
+}
+li {
+  margin: 20px;
+  font-family: Arial;
 }
 
-.nav-list-right {
- margin-left: auto;
+.nav-link-left {
+  margin-right: auto;
+}
+.nav-link {
+	display: flex;
 }
 
-.nav-link-toggle {
- display:none;
+li a {
+ color: white;
+ text-decoration: none; 
 }
+ 
+.hamburger {
+    display: none;
+  }
+
+ul .myLinks {
+  display: flex;
+}
+
+.mobile {
+  display: none;
+}
+
 }
 
 section {
  display: flex;
  flex-flow: column wrap;
- margin-bottom: 4em;
+ margin-bottom: 0em;
 }
 
 .welcome-image {
@@ -80,10 +151,11 @@ section {
  height: 100vh;
  background: url(https://raw.githubusercontent.com/hannakozak/hannawkozak.github.io/master/forest-large.jpg) no-repeat 50% fixed / cover;
  width: 100%;
+
 }
 
 .welcome-text {
- text-align: center;
+text-align: center;
  padding: 25vh 2em;
  font-size: 1em;
  min-height: 100vh;
@@ -102,11 +174,12 @@ section {
 @media (min-width: 35em) {
 	
 .welcome-image {
+ margin:0;
  padding: 0;
  height: 100vh;
  background: url(https://raw.githubusercontent.com/hannakozak/hannawkozak.github.io/master/forest-large.jpg) no-repeat 50% fixed / cover;
  width: 100%;
- margin-bottom: 2em;
+ 
 }
 
 .welcome-text {
@@ -345,7 +418,7 @@ input[type=checkbox]:checked + label {
  margin-bottom: 3em;
 }
 
-.fa {
+#social > .fa {
  width: 4em;
  height: 4em;
  margin: 0.5em;
@@ -359,7 +432,7 @@ input[type=checkbox]:checked + label {
  box-shadow: 2px 2px 4px grey;
 }
 
-.fa:hover {
+#social >.fa:hover {
  background-color:green;
 }
 
