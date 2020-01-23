@@ -131,7 +131,7 @@ section {
  margin:0;
  padding: 0;
  height: 100vh;
- background: url(https://raw.githubusercontent.com/hannakozak/hannawkozak.github.io/master/forest-large.jpg) no-repeat 50% fixed / cover;
+ background: url(forest-large.jpg);
  width: 100%;
 }
 
@@ -232,27 +232,29 @@ padding: 1em;
 display: flex;
 flex-flow: row wrap;
 margin: auto;
+padding: 2em;
 
 }
 
 .gallery-item {
  display: flex;
  flex-flow: row wrap;
- width: 25em;
+ width: 30em;
  text-decoration: none;
+ padding: 2em;
 }
 
 .gallery-item img {
   position: absolute;
-  width: 25em;
-  height: 16em;
+  width: 30em;
+  height: 18em;
   border-radius: 5px;
 }
 
 .project-opis {
  position: relative;
- width: 25em;
- height: 16em;
+ width: 30em;
+ height: 18em;
  display: flex;
  flex-direction: column;
  justify-content: center;
