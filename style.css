@@ -90,7 +90,7 @@ li {
 @media (min-width: 35em) {
 	
 li {
-	padding: 0em 1em;
+	padding: 1em 1em;
 }
 
 .nav-link-left {
@@ -123,8 +123,7 @@ section {
  display: flex;
  flex-flow: column wrap;
  justify-content: center;
- margin: auto;
- margin-bottom: 2em;
+margin-top: 4em;
 }
 
 .welcome-image {
@@ -184,9 +183,10 @@ section {
  display: flex;
  flex-flow: column wrap;
  justify-content: center;
- margin: auto;
- padding: 1em;
+
+ padding: 0em;
  text-align: center;
+ 
 }
 
 .gallery > a {
@@ -196,15 +196,12 @@ section {
 
 .gallery-item {
   width: 100%;
-  margin: auto;
-  margin-bottom: 2em;
 }
 
 .gallery-item img {
   width: 90%;
   height: auto;
   border-radius: 5px;
-  margin: auto;
 }
 
 .project-opis {
@@ -230,32 +227,31 @@ section {
 @media (min-width: 35em) {
 .gallery {
  display: flex;
+ padding: 0;
  flex-flow: row wrap;
- margin: auto;
- padding: 1em;
-
+ margin: 0em;
+ 
 }
 
 .gallery-item {
  display: flex;
  flex-flow: row wrap;
- width: 28em;
+ width: 32em;
  text-decoration: none;
- padding: 0;
- margin: auto;
- margin-bottom: 3em;
+ margin: 0em;
+
 }
 
 .gallery-item img {
   position: relative;
-  width: 30em;
+  width: 32em;
   height: 18em;
   border-radius: 5px;
 }
 
 .project-opis {
  position: absolute;
- width: 30em;
+ width: 32em;
  height: 6em;
  display: flex;
  align-self: flex-end;
@@ -280,7 +276,7 @@ section {
  margin: 0; 
 }
 	
-.project-opis:hover {
+.gallery-item:hover .project-opis{
  transition: all 0.8s ease;
  background: rgba(0, 0, 0, 1);
  opacity: 1;
