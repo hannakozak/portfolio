@@ -5,18 +5,18 @@ module.exports = {
       colors: {
         background: {
           light: '#fff',
-          hover: '#203354',
+          hover: '#0e2444',
           dark: '#0A192F',
         },
+        hover: '#203354',
       },
       container: {
-        center: true,
         padding: {
           DEFAULT: '1rem',
           sm: '2rem',
           lg: '4rem',
           xl: '5rem',
-          '2xl': '10rem',
+          '2xl': '6rem',
         },
       },
     },

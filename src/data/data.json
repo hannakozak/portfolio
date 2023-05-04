@@ -1,0 +1,52 @@
+{
+  "data": [
+    {
+      "name": "Winter Swimming Blog",
+      "description": "Winter swimming personal blog",
+      "technologies": "React, Next, Contentful as a headless content management system, Tailwind CSS",
+      "image": "./src/assets/images/WinterBlog.jpg",
+      "live": "winter-swimming-blog.vercel.app",
+      "code": "https://github.com/hannakozak/winter-swim-blog"
+    },
+    {
+      "name": "Photo Search Application",
+      "description": "The application allows user to search for inspiring images.",
+      "technologies": "Unspalsh, React, Styled Components",
+      "image": "./src/assets/images/PhotoGallery.jpg",
+      "live": "https://hannakozak.github.io/photo-search-app/",
+      "code": "https://github.com/hannakozak/photo-search-app"
+    },
+    {
+      "name": "Easybank",
+      "description": "Easybank landing page",
+      "technologies": "HTML, CSS, JS",
+      "image": "./src/assets/images/EasyBank.jpg",
+      "live": "https://hannakozak.github.io/easybank/",
+      "code": "https://github.com/hannakozak/easybank"
+    },
+    {
+      "name": "Manage",
+      "description": "Manage landing page",
+      "technologies": "HTML, CSS, SASS, JS",
+      "image": "./src/assets/images/Manage.jpg",
+      "live": "https://vermillion-klepon-1cfaef.netlify.app/",
+      "code": "https://github.com/hannakozak/manage_landing_page"
+    },
+    {
+      "name": "Event Planner Application",
+      "description": "Full stack MERN app with authentication and database hosted on MongoDB Atlas",
+      "technologies": "Backend: Node.js, Express.js, TypeScript, Mongoose, Frontend: React, React Router, TypeScript, Styled Components",
+      "image": "./src/assets/images/Events.jpg",
+      "live": "https://event-frontend-0lj5.onrender.com/",
+      "code": "https://github.com/hannakozak/event-planner-app"
+    },
+    {
+      "name": "Food Order Application",
+      "description": "A food order application with basket functionality",
+      "technologies": "React, Firebase Realtime Database, React Router, Styled Components",
+      "image": "./src/assets/images/FoodOrder.jpg",
+      "live": "https://hannakozak.github.io/food-order-app/",
+      "code": "https://github.com/hannakozak/food-order-app"
+    }
+  ]
+}
