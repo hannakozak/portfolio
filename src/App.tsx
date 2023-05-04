@@ -1,10 +1,10 @@
-import './index.css';
+import { Hero } from './components/Hero/Hero';
 
 const App = () => {
   return (
-    <>
-      <h1 className="font-bold text-white">Hello world!</h1>
-    </>
+    <div>
+      <Hero />
+    </div>
   );
 };
 export default App;
