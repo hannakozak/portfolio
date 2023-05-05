@@ -5,7 +5,7 @@
       "description": "Winter swimming personal blog",
       "technologies": "React, Next, Contentful as a headless content management system, Tailwind CSS",
       "image": "./images/WinterBlog.jpg",
-      "live": "winter-swimming-blog.vercel.app",
+      "live": "https://winter-swimming-blog.vercel.app/",
       "code": "https://github.com/hannakozak/winter-swim-blog"
     },
     {
