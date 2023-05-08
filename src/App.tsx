@@ -1,12 +1,13 @@
 import { Hero } from './components/Hero/Hero';
+import { Layout } from './components/Layout/Layout';
 import { Portfolio } from './components/Portfolio/Portfolio';
 
 const App = () => {
   return (
-    <div>
+    <Layout>
       <Hero />
       <Portfolio />
-    </div>
+    </Layout>
   );
 };
 export default App;

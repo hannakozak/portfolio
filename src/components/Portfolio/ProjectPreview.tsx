@@ -7,7 +7,7 @@ interface ProjectPreviewProps {
 export const ProjectPreview = ({ data }: ProjectPreviewProps) => {
   return (
     <div
-      className={`${styles.scaleOnHover} prose flex flex-col justify-start px-6 h-[550px]`}
+      className={`${styles.scaleOnHover} prose flex flex-col justify-start p-6  py-3`}
     >
       <div>
         <img src={data.image} className="rounded" />
