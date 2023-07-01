@@ -10,7 +10,11 @@ export const ProjectPreview = ({ data }: ProjectPreviewProps) => {
       className={`${styles.scaleOnHover} prose flex flex-col justify-start p-6  py-3`}
     >
       <div>
-        <img src={data.image} className="rounded" />
+        <img
+          alt={`Screenshot of ${data.name}`}
+          src={data.image}
+          className="rounded"
+        />
       </div>
       <h2 className={styles.textGradient}>{data.name}</h2>
       <p className="text-white m-0">{data.description}</p>
