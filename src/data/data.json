@@ -1,6 +1,22 @@
 {
   "data": [
     {
+      "name": "Gutter Service",
+      "description": "The Local company website offering gutter service",
+      "technologies": "React, Next, Tailwind CSS",
+      "image": "./images/GutterService.jpg",
+      "live": "https://gutter-service.vercel.app/",
+      "code": "https://github.com/hannakozak/gutter-service/tree/main"
+    },
+    {
+      "name": "Next13Master Ecommerse",
+      "description": "Next.js Ecommerse",
+      "technologies": "GraphQL · Tailwind CSS · Next.js · TypeScript · React.js",
+      "image": "./images/next13masterb.jpg",
+      "live": "https://next13master-psi.vercel.app/",
+      "code": "https://github.com/hannakozak/next13master"
+    },
+    {
       "name": "Winter Swimming Blog",
       "description": "Winter swimming personal blog",
       "technologies": "React, Next, Contentful as a headless content management system, Tailwind CSS",
