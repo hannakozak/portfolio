@@ -18,7 +18,10 @@ export const ProjectPreview = ({ data }: ProjectPreviewProps) => {
       </div>
       <h2 className={styles.textGradient}>{data.name}</h2>
       <p className="text-white m-0">{data.description}</p>
-      <p className="text-white m-0">Technologies: {data.technologies}</p>
+      <p className="text-white m-0 mt-5">
+        Technologies:{' '}
+        <span className="text-cyan-300 font-bold">{data.technologies}</span>
+      </p>
       <div className="flex gap-3 ">
         <a
           href={data.live}

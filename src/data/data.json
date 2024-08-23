@@ -1,14 +1,6 @@
 {
   "data": [
     {
-      "name": "Gutter Service",
-      "description": "The Local company website offering gutter service",
-      "technologies": "React, Next, Tailwind CSS",
-      "image": "./images/GutterService.jpg",
-      "live": "https://gutter-service.vercel.app/",
-      "code": "https://github.com/hannakozak/gutter-service/tree/main"
-    },
-    {
       "name": "Next13Master Ecommerse",
       "description": "Next.js Ecommerse",
       "technologies": "GraphQL · Tailwind CSS · Next.js · TypeScript · React.js",
@@ -17,52 +9,70 @@
       "code": "https://github.com/hannakozak/next13master"
     },
     {
-      "name": "Winter Swimming Blog",
-      "description": "Winter swimming personal blog",
-      "technologies": "React, Next, Contentful as a headless content management system, Tailwind CSS",
-      "image": "./images/WinterBlog.jpg",
-      "live": "https://winter-swimming-blog.vercel.app/",
-      "code": "https://github.com/hannakozak/winter-swim-blog"
+      "name": "Gutter Service",
+      "description": "The Local company website offering gutter service",
+      "technologies": "React, Next, Tailwind CSS",
+      "image": "./images/GutterService.jpg",
+      "live": "https://gutter-service.vercel.app/",
+      "code": "https://github.com/hannakozak/gutter-service/tree/main"
     },
     {
-      "name": "Photo Search Application",
-      "description": "The application allows user to search for inspiring images.",
-      "technologies": "Unspalsh, React, Styled Components",
-      "image": "./images/PhotoGallery.jpg",
-      "live": "https://hannakozak.github.io/photo-search-app/",
-      "code": "https://github.com/hannakozak/photo-search-app"
-    },
-    {
-      "name": "Easybank",
-      "description": "Easybank landing page",
-      "technologies": "HTML, CSS, JS",
-      "image": "./images/EasyBank.jpg",
-      "live": "https://hannakozak.github.io/easybank/",
-      "code": "https://github.com/hannakozak/easybank"
-    },
-    {
-      "name": "Manage",
-      "description": "Manage landing page",
-      "technologies": "HTML, CSS, SASS, JS",
-      "image": "./images/Manage.jpg",
-      "live": "https://vermillion-klepon-1cfaef.netlify.app/",
-      "code": "https://github.com/hannakozak/manage_landing_page"
+      "name": "Boolebots",
+      "description": "This is a group project made during Chingu Voayge. Boolebots aims to make learning boolean logic fun and engaging by allowing players to configure a series of bots and pit them against each other in battles.",
+      "technologies": "React.js · TypeScript · CSS",
+      "image": "./images/boolebots.png",
+      "live": "https://gentle-semifreddo-84c257.netlify.app/",
+      "code": "https://github.com/chingu-voyages/v44-tier2-team-27"
     },
     {
       "name": "Event Planner Application",
       "description": "Full stack MERN app with authentication and database hosted on MongoDB Atlas",
       "technologies": "Backend: Node.js, Express.js, TypeScript, Mongoose, Frontend: React, React Router, TypeScript, Styled Components",
       "image": "./images/Events.jpg",
-      "live": "https://event-frontend-0lj5.onrender.com/",
+      "live": "",
       "code": "https://github.com/hannakozak/event-planner-app"
     },
+
     {
-      "name": "Food Order Application",
-      "description": "A food order application with basket functionality",
-      "technologies": "React, Firebase Realtime Database, React Router, Styled Components",
-      "image": "./images/FoodOrder.jpg",
-      "live": "https://hannakozak.github.io/food-order-app/",
-      "code": "https://github.com/hannakozak/food-order-app"
+      "name": "Winter Swimming Blog",
+      "description": "Winter swimming blog built with Next.js, Contentful as a Headless CMS, and styled using Tailwind CSS. The blog is integrated with Disqus, enabling users to leave comments on posts. Additionally, it features an emotion-based reaction system, allowing visitors to express if they enjoyed the content with a simple click. This combination of modern tools ensures a seamless, interactive user experience.",
+      "technologies": "React, Next, Contentful as a headless content management system, Tailwind CSS",
+      "image": "./images/WinterBlog.jpg",
+      "live": "https://winter-swimming-blog.vercel.app/",
+      "code": "https://github.com/hannakozak/winter-swim-blog"
+    },
+    {
+      "name": "Easybank",
+      "description": "This is a solution to the Easybank landing page challenge from Frontend Mentor, a platform that helps developers improve their coding skills by working on real-world projects. This particular challenge tests layout abilities by requiring the development of a landing page that accurately replicates the given design.",
+      "technologies": "HTML, CSS, JS",
+      "image": "./images/EasyBank.jpg",
+      "live": "https://hannakozak.github.io/easybank/",
+      "code": "https://github.com/hannakozak/easybank"
+    },
+    {
+      "name": "Manage Landing Page",
+      "description": "This is a solution to the Easybank landing page challenge from Frontend Mentor, a platform that helps developers improve their coding skills by working on real-world projects. This particular challenge tests responsive skills. There are lots of small details and slight content shifts for different screen sizes.",
+      "technologies": "HTML, CSS, SASS, JS",
+      "image": "./images/Manage.jpg",
+      "live": "https://vermillion-klepon-1cfaef.netlify.app/",
+      "code": "https://github.com/hannakozak/manage_landing_page"
+    },
+    {
+      "name": "Photo Search Application",
+      "description": "This is a React-based image search application that utilizes the Unsplash API. It empowers users to discover inspirational images, browse search results, and access additional details about their chosen images.",
+      "technologies": "Unspalsh, React, Styled Components",
+      "image": "./images/PhotoGallery.jpg",
+      "live": "https://hannakozak.github.io/photo-search-app/",
+      "code": "https://github.com/hannakozak/photo-search-app"
+    },
+
+    {
+      "name": "Hangman",
+      "description": "Hangman is a game built with HTML, CSS, and JavaScript. The project features an interactive user interface where players guess letters to complete a hidden word. Implemented game logic, including tracking player progress, and visual feedback for correct and incorrect guesses. The game is fully responsive and can be played across different devices.",
+      "technologies": "HTML · CSS · JavaScript",
+      "image": "./images/hangman.png",
+      "live": "https://hannakozak.github.io/hangman/",
+      "code": ""
     }
   ]
 }
