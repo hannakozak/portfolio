@@ -1,12 +1,12 @@
 {
   "data": [
     {
-      "name": "Next13Master Ecommerse",
+      "name": "Nexty",
       "description": "Next.js Ecommerse",
       "technologies": "GraphQL · Tailwind CSS · Next.js · TypeScript · React.js",
-      "image": "./images/next13masterb.jpg",
-      "live": "https://next13master-psi.vercel.app/",
-      "code": "https://github.com/hannakozak/next13master"
+      "image": "./images/nexty.jpg",
+      "live": "https://nexty-store.vercel.app/",
+      "code": "https://github.com/hannakozak/nexty-store"
     },
     {
       "name": "Gutter Service",
