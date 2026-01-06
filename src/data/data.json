@@ -1,6 +1,14 @@
 {
   "data": [
     {
+      "name": "Elite Remodeling",
+      "description": "A modern, performance-optimized landing page for a home remodeling business.",
+      "technologies": "HTML · CSS · JavaScript",
+      "image": "./images/elite.jpg",
+      "live": "https://elite-remodeling.vercel.app/",
+      "code": "https://github.com/hannakozak/elite-remodeling"
+    },
+    {
       "name": "Nexty",
       "description": "Next.js Ecommerse",
       "technologies": "GraphQL · Tailwind CSS · Next.js · TypeScript · React.js",
@@ -12,7 +20,7 @@
       "name": "Gutter Service",
       "description": "The Local company website offering gutter service",
       "technologies": "React, Next, Tailwind CSS",
-      "image": "./images/GutterService.jpg",
+      "image": "./images/gutter.jpg",
       "live": "https://gutter-service.vercel.app/",
       "code": "https://github.com/hannakozak/gutter-service/tree/main"
     },
@@ -31,15 +39,6 @@
       "image": "./images/Events.jpg",
       "live": "",
       "code": "https://github.com/hannakozak/event-planner-app"
-    },
-
-    {
-      "name": "Winter Swimming Blog",
-      "description": "Winter swimming blog built with Next.js, Contentful as a Headless CMS, and styled using Tailwind CSS. The blog is integrated with Disqus, enabling users to leave comments on posts. Additionally, it features an emotion-based reaction system, allowing visitors to express if they enjoyed the content with a simple click. This combination of modern tools ensures a seamless, interactive user experience.",
-      "technologies": "React, Next, Contentful as a headless content management system, Tailwind CSS",
-      "image": "./images/WinterBlog.jpg",
-      "live": "https://winter-swimming-blog.vercel.app/",
-      "code": "https://github.com/hannakozak/winter-swim-blog"
     },
     {
       "name": "Easybank",
