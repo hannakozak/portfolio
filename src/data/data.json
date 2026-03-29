@@ -3,15 +3,15 @@
     {
       "name": "Elite Remodeling",
       "description": "A modern, performance-optimized landing page for a home remodeling business.",
-      "technologies": "HTML · CSS · JavaScript",
+      "technologies": "HTML, CSS, JavaScript",
       "image": "./images/elite.jpg",
       "live": "https://elite-remodeling.vercel.app/",
       "code": "https://github.com/hannakozak/elite-remodeling"
     },
     {
       "name": "Nexty",
-      "description": "Next.js Ecommerse",
-      "technologies": "GraphQL · Tailwind CSS · Next.js · TypeScript · React.js",
+      "description": "Nexty Store is a modern e-commerce web application built with Next.js, designed for fast performance, responsive UI, and seamless shopping experience.",
+      "technologies": "GraphQL, Tailwind CSS, Next.js, TypeScript,  React.js",
       "image": "./images/nexty.jpg",
       "live": "https://nexty-store.vercel.app/",
       "code": "https://github.com/hannakozak/nexty-store"
@@ -19,7 +19,7 @@
     {
       "name": "AI Wise",
       "description": "AI Wise is a curated content hub for anyone learning or working with AI. It brings together hand-picked AI tools, online courses, articles and topic guides in one place — with a clean, fast interface",
-      "technologies": "Next.js, Tailwind CSS and Framer Motion.",
+      "technologies": "Next.js, Tailwind CSS, Framer Motion",
       "image": "./images/altools.jpg",
       "live": "https://ai-tools-wise.vercel.app/",
       "code": "https://github.com/hannakozak/ai-tools-wise"
@@ -27,7 +27,7 @@
     {
       "name": "Boolebots",
       "description": "This is a group project made during Chingu Voayge. Boolebots aims to make learning boolean logic fun and engaging by allowing players to configure a series of bots and pit them against each other in battles.",
-      "technologies": "React.js · TypeScript · CSS",
+      "technologies": "React.js, TypeScript, CSS",
       "image": "./images/boolebots.png",
       "live": "https://gentle-semifreddo-84c257.netlify.app/",
       "code": "https://github.com/chingu-voyages/v44-tier2-team-27"
@@ -35,7 +35,7 @@
     {
       "name": "Event Planner Application",
       "description": "Full stack MERN app with authentication and database hosted on MongoDB Atlas",
-      "technologies": "Backend: Node.js, Express.js, TypeScript, Mongoose, Frontend: React, React Router, TypeScript, Styled Components",
+      "technologies": "Node.js, Express.js, TypeScript, Mongoose, React.js, React Router, TypeScript, Styled Components",
       "image": "./images/Events.jpg",
       "live": "",
       "code": "https://github.com/hannakozak/event-planner-app"
@@ -60,7 +60,7 @@
     {
       "name": "Hangman",
       "description": "Hangman is a game built with HTML, CSS, and JavaScript. The project features an interactive user interface where players guess letters to complete a hidden word. Implemented game logic, including tracking player progress, and visual feedback for correct and incorrect guesses. The game is fully responsive and can be played across different devices.",
-      "technologies": "HTML · CSS · JavaScript",
+      "technologies": "HTML, CSS, JavaScript",
       "image": "./images/hangman.png",
       "live": "https://hannakozak.github.io/hangman/",
       "code": ""
