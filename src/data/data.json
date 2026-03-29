@@ -49,14 +49,6 @@
       "code": "https://github.com/hannakozak/easybank"
     },
     {
-      "name": "Manage Landing Page",
-      "description": "This is a solution to the Easybank landing page challenge from Frontend Mentor, a platform that helps developers improve their coding skills by working on real-world projects. This particular challenge tests responsive skills. There are lots of small details and slight content shifts for different screen sizes.",
-      "technologies": "HTML, CSS, SASS, JS",
-      "image": "./images/Manage.jpg",
-      "live": "https://vermillion-klepon-1cfaef.netlify.app/",
-      "code": "https://github.com/hannakozak/manage_landing_page"
-    },
-    {
       "name": "Photo Search Application",
       "description": "This is a React-based image search application that utilizes the Unsplash API. It empowers users to discover inspirational images, browse search results, and access additional details about their chosen images.",
       "technologies": "Unspalsh, React, Styled Components",
