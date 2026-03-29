@@ -17,12 +17,12 @@
       "code": "https://github.com/hannakozak/nexty-store"
     },
     {
-      "name": "Gutter Service",
-      "description": "The Local company website offering gutter service",
-      "technologies": "React, Next, Tailwind CSS",
-      "image": "./images/gutter.jpg",
-      "live": "https://gutter-service.vercel.app/",
-      "code": "https://github.com/hannakozak/gutter-service/tree/main"
+      "name": "AI Wise",
+      "description": "AI Wise is a curated content hub for anyone learning or working with AI. It brings together hand-picked AI tools, online courses, articles and topic guides in one place — with a clean, fast interface",
+      "technologies": "Next.js, Tailwind CSS and Framer Motion.",
+      "image": "./images/altools.jpg",
+      "live": "https://ai-tools-wise.vercel.app/",
+      "code": "https://github.com/hannakozak/ai-tools-wise"
     },
     {
       "name": "Boolebots",
