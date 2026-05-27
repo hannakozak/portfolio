@@ -1,6 +1,14 @@
 {
   "data": [
     {
+      "name": "Meal Planner",
+      "description": "A full-stack application for managing recipes and meal plans. ",
+      "technologies": "Next.js, TypeScript, Shadcn, Prisma ORM, Tailwind CSS",
+      "image": "./images/MealPlanner.png",
+      "live": "https://meal-planner-mu-two.vercel.app/",
+      "code": "https://github.com/hannakozak/meal-planner"
+    },
+    {
       "name": "Elite Remodeling",
       "description": "A modern, performance-optimized landing page for a home remodeling business.",
       "technologies": "HTML, CSS, JavaScript",
