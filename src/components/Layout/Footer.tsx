@@ -4,7 +4,7 @@ export const Footer = () => {
       <a href="https://github.com/hannakozak" className="hover:text-purple-500">
         Hanna Kozak
       </a>
-      <p className="">2024</p>
+      <p className="">{new Date().getFullYear()}</p>
     </div>
   );
 };
