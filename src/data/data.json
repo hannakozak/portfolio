@@ -4,7 +4,7 @@
       "name": "Meal Planner",
       "description": "A full-stack application for managing recipes and meal plans. ",
       "technologies": "Next.js, TypeScript, Shadcn, Prisma ORM, Tailwind CSS",
-      "image": "./images/MealPlanner.png",
+      "image": "./images/meal-planner.jpeg",
       "live": "https://meal-planner-mu-two.vercel.app/",
       "code": "https://github.com/hannakozak/meal-planner"
     },
@@ -48,14 +48,7 @@
       "live": "",
       "code": "https://github.com/hannakozak/event-planner-app"
     },
-    {
-      "name": "Easybank",
-      "description": "This is a solution to the Easybank landing page challenge from Frontend Mentor, a platform that helps developers improve their coding skills by working on real-world projects. This particular challenge tests layout abilities by requiring the development of a landing page that accurately replicates the given design.",
-      "technologies": "HTML, CSS, JS",
-      "image": "./images/EasyBank.jpg",
-      "live": "https://hannakozak.github.io/easybank/",
-      "code": "https://github.com/hannakozak/easybank"
-    },
+
     {
       "name": "Photo Search Application",
       "description": "This is a React-based image search application that utilizes the Unsplash API. It empowers users to discover inspirational images, browse search results, and access additional details about their chosen images.",
